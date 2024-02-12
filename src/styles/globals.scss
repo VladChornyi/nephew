@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import "src/styles/mixins.scss";
+
+:root {
+  --main-color: #fbfbff;
+  --main-dark-color: #333;
+  --secondary-dark-color: #201f1f;
+  --bcg-color: #fff0f0;
+  --brand-color: #6a3aa2;
+  --font-family: "Open Sans", sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-family);
+  height: 100%;
+  color: var(--main-dark-color);
+  background-image: url("/grass.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#__next {
+  height: 100%;
+}
+
+img {
+  height: auto;
+}

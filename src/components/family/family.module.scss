@@ -1,0 +1,95 @@
+.family {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+
+    .nina {
+        width: 0;
+        position: relative;
+        left: 80px;
+    }
+    .nina.visible {
+        width: 140px;
+    }
+
+    .ivan {
+        width: 0;
+        position: relative;
+        left: 65px;
+    }
+    .ivan.visible {
+        width: 85px;
+    }
+
+    .taja {
+        width: 0;
+    }
+    .taja.visible {
+        width: 210px;
+    }
+
+    .zhenya {
+        width: 0;
+        position: relative;
+        right: 40px;
+    }
+    .zhenya.visible {
+        width: 200px;
+    }
+
+    .tonya {
+        width: 0;
+        position: relative;
+        left: 130px;
+    }
+    .tonya.visible {
+        width: 140px;
+    }
+
+    .sasha {
+        width: 0;
+        position: relative;
+        left: 90px;
+        top: 15px;
+    }
+    .sasha.visible {
+        width: 210px;
+    }
+
+    .vlad {
+        width: 0;
+    }
+    .vlad.visible {
+        width: 170px;
+    }
+
+    .platon {
+        width: 0;
+        position: relative;
+        right: 20%;
+        top: 25px;
+    }
+    .platon.visible {
+        width: 160px;
+    }
+
+    .valya {
+        width: 0;
+        position: relative;
+        right: 15%;
+    }
+    .valya.visible {
+        width: 150px;
+    }
+
+    img {
+        transition:
+            width ease-in 1s,
+            height ease-in 1s;
+    }
+}

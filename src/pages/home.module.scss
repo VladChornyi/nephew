@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Sans+MS&family=Indie+Flower&display=swap");
+
+.animate-bounce {
+    animation: bounce 1s infinite alternate; /* Анімація */
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+.wrapper {
+    position: relative;
+}
+.title {
+    font-family: "Comic Sans MS", cursive;
+    color: blue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 45px;
+    text-align: center;
+    animation: bounce 1s infinite alternate;
+    background-clip: text;
+}
